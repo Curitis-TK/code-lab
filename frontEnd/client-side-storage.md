@@ -48,7 +48,9 @@ Cookie可以通过以下2种方式设置：
 
 :::warning
 
-时至今日，cookies已经开始被认为是过时的，存在存在各种[安全问题](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Cookies#安全)、无法存储复杂数据等问题。
+cookies中存在有一些[安全问题](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Cookies#安全)需要留意
+
+cookies无法存储复杂数据等问题
 
 :::
 

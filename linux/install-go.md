@@ -1,4 +1,5 @@
 # 安装Go
+<span style='background: #67196b;color:#fff;border: 2px solid #87218d;border-radius: 4px;padding: 0 8px;font-size: 12px'>Tutorial for CentOS</span>
 
 :::tip
 EPEL源中已包含此软件
