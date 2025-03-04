@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Ender Chest"
-  text: "Curitis` Notebook"
+  name: "Code Lab"
+  text: "A VitePress Site"
   tagline: My great project tagline
   actions:
     - theme: brand

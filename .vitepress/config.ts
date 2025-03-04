@@ -1,36 +1,29 @@
-import {DefaultTheme, defineConfig} from 'vitepress'
-import {sidebarLinux} from "./modules/linux";
-import {sidebarFrontEnd} from "./modules/frontEnd";
-import {sidebarDevelop} from "./modules/develop";
+import { defineConfig } from 'vitepress'
+import frontEndSidebar from './sidebar/frontEnd'
+import frontEndNav from './nav/frontEnd'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: 'zh-CN',
-  title: "Ender Chest",
-  description: "Curitis` Notebook",
+  // 站点元数据
+  title: "Code Lab",
+  description: "Curitis 文档库",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: nav(),
+    nav: [
+      { text: '首页', link: '/' },
+      frontEndNav
+    ],
 
-    sidebar: {
-      '/frontEnd/': sidebarFrontEnd(),
-      '/develop/': sidebarDevelop(),
-      '/linux/': sidebarLinux(),
-    },
+    sidebar: [
+      ...frontEndSidebar,
+    ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/curitis-tk' }
+      { icon: 'github', link: 'https://github.com/Curitis-TK' }
     ]
-  }
+  },
+  // 构建
+  srcDir: "./src",
+  srcExclude: ['**/README.md', '**/TODO.md'],
+  outDir: "./dist",
+  cacheDir: ".vitepress/cache",
 })
-
-function nav(): DefaultTheme.NavItem[] {
-  return [
-    { text: 'Home', link: '/' },
-	{ text: 'FrontEnd', link: '/frontEnd/index', activeMatch: '/frontEnd/' },
-    { text: 'Develop', link: '/develop/', activeMatch: '/develop/' },
-    { text: 'Linux', link: '/linux/config-epel-repo', activeMatch: '/linux/' }
-  ]
-}
-
-
