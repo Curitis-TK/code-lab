@@ -7,7 +7,6 @@ export default defineConfig({
   // 站点元数据
   title: "Code Lab",
   description: "Curitis 文档库",
-  base: "./",
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },

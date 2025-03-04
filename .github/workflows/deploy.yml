@@ -24,6 +24,8 @@ jobs:
   # 构建
   build:
     runs-on: ubuntu-latest
+    env:
+      VITEPRESS_BASE: /code-lab/
     steps:
       - name: Checkout
         uses: actions/checkout@v4
