@@ -27,8 +27,8 @@ export default [
         link: "/frontEnd/css__bem",
       },
       {
-        text: "Flex Grid 布局",
-        link: "/frontEnd/css__flex-grid",
+        text: "Flex",
+        link: "/frontEnd/css__flex",
       },
     ],
   },
