@@ -15,12 +15,20 @@ export default [
     text: "CSS",
     items: [
       {
-        text: "Viewport单位",
+        text: "Viewport 单位",
         link: "/frontEnd/css__viewport-unit",
       },
       {
-        text: "移动端100vh问题",
+        text: "移动端 100vh 问题",
         link: "/frontEnd/css__mobile__100vh",
+      },
+      {
+        text: "BEM",
+        link: "/frontEnd/css__bem",
+      },
+      {
+        text: "Flex Grid 布局",
+        link: "/frontEnd/css__flex-grid",
       },
     ],
   },
