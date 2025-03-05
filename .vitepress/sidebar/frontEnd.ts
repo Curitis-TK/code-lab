@@ -12,6 +12,23 @@ export default [
     ],
   },
   {
+    text: "JavaScript",
+    items: [
+      {
+        text: "Promise",
+        // link: "/frontEnd/javascript__promise",
+      },
+      {
+        text: "宏任务、微任务、事件循环",
+        // link: "/frontEnd/javascript__event-loop",
+      },
+      {
+        text: "清除所有定时器",
+        link: "/frontEnd/js__clear-all-timers",
+      },
+    ],
+  },
+  {
     text: "CSS",
     items: [
       {
@@ -27,9 +44,21 @@ export default [
         link: "/frontEnd/css__bem",
       },
       {
-        text: "Flex",
+        text: "Flex [WIP]",
         link: "/frontEnd/css__flex",
       },
+      {
+        text: "Grid [WIP]",
+        link: "/frontEnd/css__grid",
+      },
+      {
+        text: "盒模型 [WIP]",
+        link: "/frontEnd/css__box-sizing",
+      },
+      {
+        text: "Float 高度塌陷 [WIP]",
+        link: "/frontEnd/css__float",
+      }
     ],
   },
 ] as DefaultTheme.SidebarItem[];
