@@ -11,15 +11,13 @@ CSS 决定这些盒子的大小、位置以及属性（例如颜色、背景、�
 - 边框边界 (Border Edge)
 - 外边框边界 (Margin Edge)
 
-![CSS 盒模型](css__box-sizing.assets/boxmodel.png)
+![CSS 盒模型](./css__box-sizing.assets/boxmodel.png)
 
 
-
-![img](css__box-sizing.assets/b2548b00-8f9b-11eb-ab90-d9ae814b240d.png)
 
 ## 盒模型组成
 
-![image-20250305223844930](css__box-sizing.assets/image-20250305223844930.png)
+![img](./css__box-sizing.assets/b2548b00-8f9b-11eb-ab90-d9ae814b240d.png)
 
 ### 内容区域
 
@@ -93,7 +91,7 @@ CSS 决定这些盒子的大小、位置以及属性（例如颜色、背景、�
 
 content-box
 
-![image-20250305223931836](css__box-sizing.assets/image-20250305223931836.png)
+![img](./css__box-sizing.assets/c0e1d2e0-8f9b-11eb-85f6-6fac77c0c9b3.png)
 
 从上图可以看到：
 
@@ -110,7 +108,7 @@ content-box
 
 border-box
 
-![image-20250305224001145](css__box-sizing.assets/image-20250305224001145.png)
+![img](./css__box-sizing.assets/cfbb3ef0-8f9b-11eb-ab90-d9ae814b240d.png)
 
 从上图可以看到：
 
