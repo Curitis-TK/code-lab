@@ -45,14 +45,14 @@ export default [
       },
       {
         text: "Flex [WIP]",
-        link: "/frontEnd/css__flex",
+        // link: "/frontEnd/css__flex",
       },
       {
         text: "Grid [WIP]",
-        link: "/frontEnd/css__grid",
+        // link: "/frontEnd/css__grid",
       },
       {
-        text: "盒模型 [WIP]",
+        text: "盒模型",
         link: "/frontEnd/css__box-sizing",
       },
       {
