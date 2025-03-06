@@ -56,8 +56,8 @@ export default [
         link: "/frontEnd/css__box-sizing",
       },
       {
-        text: "Float 高度塌陷 [WIP]",
-        link: "/frontEnd/css__float",
+        text: "BFC",
+        link: "/frontEnd/css__bfc",
       }
     ],
   },
