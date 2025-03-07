@@ -6,8 +6,8 @@ export default [
     link: "/develop",
     items: [
       {
-        text: "Monorepo",
-        link: "/fe/Monorepo",
+        text: "Python 多版本环境安装",
+        link: "/develop/environment/python-multi-version.md",
       },
     ],
   },

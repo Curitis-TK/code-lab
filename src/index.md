@@ -3,23 +3,17 @@
 layout: home
 
 hero:
-  name: "Code Lab"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "欢迎"
+  text: "CodeLab"
+  tagline: Curitis`的知识库
+  image:
+    src: '/assets/Book_and_Quill_JE2_BE2.webp'
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 前端
+      link: /fe
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: GitHub
+      link: https://github.com/Curitis-TK
 ---
 
